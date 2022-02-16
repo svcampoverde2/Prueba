@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Datos</name>
+  </assembly>
+  <members>
+    <member name="M:Datos.Conexion.conectar">
+      <summary>
+        Conectars this instance.
+        </summary>
+      <returns>MySqlConnection.</returns>
+    </member>
+    <member name="F:Datos.Conexion.conexion_DB_externa">
+      <summary>
+        The conexion database externa
+        </summary>
+    </member>
+    <member name="M:Datos.Conexion.cerrar">
+      <summary>
+        Cerrars this instance.
+        </summary>
+    </member>
+    <member name="P:Datos.Conexion.Connection">
+      <summary>
+        Gets or sets the connection.
+        </summary>
+      <value>The connection.</value>
+    </member>
+    <member name="F:Datos.Conexion.sqlconnection">
+      <summary>
+        The sqlconnection
+        </summary>
+    </member>
+    <member name="T:Datos.Conexion">
+    <summary>
+    Class Conexion.
+    </summary>
+</member>
+  </members>
+</doc>

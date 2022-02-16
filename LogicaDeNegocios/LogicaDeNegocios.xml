@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>LogicaDeNegocios</name>
+  </assembly>
+  <members>
+    <member name="T:LogicaDeNegocios.AdmVendedor">
+      <summary>
+    Class AdmVendedor.
+    </summary>
+    </member>
+    <member name="M:LogicaDeNegocios.AdmVendedor.RegistrarVendedor(Vendedor)">
+        <summary>
+        Registrars the vendedor.
+        </summary>
+        <param name="vendedor">The vendedor.</param>
+        <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+</member>
+  </members>
+</doc>
