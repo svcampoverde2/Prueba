@@ -30,8 +30,11 @@ namespace LogicaDeNegocios
 
         }
 
-        
-        public string Cedula { get => cedula; set => cedula = value; }
+        /// <summary>
+        /// Gets or sets the cedula.
+        /// </summary>
+        /// <value>The cedula.</value>
+     public string Cedula { get => cedula; set => cedula = value; }
 
         public string Nombre { get => nombre; set => nombre = value; }
 
