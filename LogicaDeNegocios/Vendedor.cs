@@ -8,16 +8,16 @@ namespace LogicaDeNegocios
 {
     public class Vendedor : Persona
     {
-        private double sueldo;
+        private int sueldo;
         CredencialUsuario credencialUsuario;
-        public Vendedor(string cedula, string nombre, string sexo, string telefono, double sueldo, CredencialUsuario credencialUsuario)
+        public Vendedor(string cedula, string nombre, string sexo, string telefono, int sueldo, CredencialUsuario credencialUsuario)
             : base(cedula, nombre, sexo, telefono)
         {
             this.sueldo = sueldo;
             this.credencialUsuario = credencialUsuario;
         }
 
-        public double Sueldo { get => sueldo; set => sueldo = value; }
+        public int Sueldo { get => sueldo; set => sueldo = value; }
         public CredencialUsuario CredencialUsuario { get => credencialUsuario; set => credencialUsuario = value; }
 
         public void InsertarVendedor(Vendedor vendedor)
