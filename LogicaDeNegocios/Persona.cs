@@ -6,10 +6,11 @@ namespace LogicaDeNegocios
     /// <exclude />
     public class Persona
     {
-        private string cedula33;
+        private int cedula33;
         private string nombre;
-        private double sexo;
-        private string telefono;
+        private string sexo;
+        private int telefono;
+        private int edad;
         /// <exclude />
         public Persona() { }
 
@@ -21,27 +22,29 @@ namespace LogicaDeNegocios
         /// <param name="sexo"></param>
         /// <param name="telefono"></param>
         
-        public Persona(string cedula33, string nombre, double sexo, string telefono)
+        public Persona(int cedula33, string nombre, double sexo, string telefono)
         {
-            this.cedula33 = cedula;
+            this.cedula = cedula22;
             this.nombre = nombre;
             this.sexo = sexo;
             this.telefono = telefono;
+            this.edad= edad;
 
         }
         //se realiza comentario
         
-        public string Cedula33 { get => cedula33; set => cedula33 = value; }
+        public int Cedula33 { get => cedula33; set => cedula33 = value; }
 
         public string Nombre { get => nombre; set => nombre = value; }
 
         public double Sexo { get => sexo; set => sexo = value; }
 
-        public string Telefono { get => telefono; set => telefono = value; }
+        public int Telefono { get => telefono; set => telefono = value; }
 
+        public int Edad { get => edad; set => edad = value; }
         public override string ToString()
         {
-            return "Cedula: " + cedula33 + "Nombre: " + nombre + "Sexo: " + sexo + "Telefono: " + telefono;
+            return "Cedula: " + cedula22 + "Nombre: " + nombre + "Sexo: " + sexo + "Telefono: " + telefono + edad;
 
         }
     }
