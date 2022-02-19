@@ -6,11 +6,10 @@ namespace LogicaDeNegocios
     /// <exclude />
     public class Persona
     {
-        private int cedula22;
+        private string cedula33;
         private string nombre;
-        private string sexo;
-        private int telefono;
-        private int edad;
+        private double sexo;
+        private string telefono;
         /// <exclude />
         public Persona() { }
 
@@ -22,38 +21,27 @@ namespace LogicaDeNegocios
         /// <param name="sexo"></param>
         /// <param name="telefono"></param>
         
-        public Persona(int cedula22, string nombre, string sexo, string telefono, int edad)
-      
+        public Persona(string cedula33, string nombre, double sexo, string telefono)
         {
-            this.cedula = cedula22;
+            this.cedula33 = cedula;
             this.nombre = nombre;
             this.sexo = sexo;
             this.telefono = telefono;
-            this.edad= edad;
 
         }
         //se realiza comentario
         
-       
-        /// <summary>
-        /// Gets or sets the cedula.
-        /// </summary>
-        /// <value>The cedula.</value>
-     public int Cedula22 { get => cedula22; set => cedula22 = value; }
-        /// <summary>
-        /// Gets or sets the nombre.
-        /// </summary>
-        /// <value>The nombre.</value>
+        public string Cedula33 { get => cedula33; set => cedula33 = value; }
+
         public string Nombre { get => nombre; set => nombre = value; }
 
         public double Sexo { get => sexo; set => sexo = value; }
 
-        public int Telefono { get => telefono; set => telefono = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
 
-        public int Edad { get => edad; set => edad = value; }
         public override string ToString()
         {
-            return "Cedula: " + cedula22 + "Nombre: " + nombre + "Sexo: " + sexo + "Telefono: " + telefono + edad;
+            return "Cedula: " + cedula33 + "Nombre: " + nombre + "Sexo: " + sexo + "Telefono: " + telefono;
 
         }
     }
