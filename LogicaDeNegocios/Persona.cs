@@ -6,7 +6,7 @@ namespace LogicaDeNegocios
     /// <exclude />
     public class Persona
     {
-        private int cedula33;
+        private string cedula33;
         private string nombre;
         private double sexo;
         private string telefono;
@@ -21,7 +21,7 @@ namespace LogicaDeNegocios
         /// <param name="sexo"></param>
         /// <param name="telefono"></param>
         
-        public Persona(int cedula33, string nombre, double sexo, string telefono)
+        public Persona(string cedula33, string nombre, double sexo, string telefono)
         {
             this.cedula33 = cedula;
             this.nombre = nombre;
@@ -31,7 +31,7 @@ namespace LogicaDeNegocios
         }
         //se realiza comentario
         
-        public int Cedula33 { get => cedula33; set => cedula33 = value; }
+        public string Cedula33 { get => cedula33; set => cedula33 = value; }
 
         public string Nombre { get => nombre; set => nombre = value; }
 
